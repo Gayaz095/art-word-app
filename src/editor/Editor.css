@@ -1,0 +1,147 @@
+.container {
+    margin-top: 50px;
+    height: 100vh;
+}
+
+.heading-large {
+    color: rgb(241, 86, 86);
+    text-align: center;
+    font-family: Fantasy;
+    transition: all 0.3s;
+}
+
+.heading-large:hover {
+    transform: scale(1.1);
+    color: rgb(241, 86, 86);
+    text-shadow: 2px 2px 4px rgba(33, 14, 14, 0.5);
+}
+
+.editor-section {
+    background-color: #b2d6ba;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.image-container {
+    border: 2px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    height: 500px;
+    overflow: auto;
+}
+
+.image-container img {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.edited-image {
+    max-width: 100%;
+    max-height: 400px;
+    margin-top: 20px;
+}
+
+.edit-controls {
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    height: 500px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-input,
+.text-color,
+.font-dropdown,
+.text-size-buttons,
+.text-placement,
+.save-button {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.text-input input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.text-color input[type="color"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.font-dropdown select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.text-size-buttons {
+    display: flex;
+}
+
+.text-size-buttons button {
+    margin-right: 10px;
+}
+
+.text-placement .text-move-buttons button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #ed8989;
+    transition: background-color 0.3s;
+}
+
+.text-placement .text-move-arrows {
+    display: flex;
+}
+
+.text-placement .text-move-arrows button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #e28282;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.save-button button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #28a745;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+@media (max-width: 768px) {
+    .editor-section {
+        margin-top: 150px;
+        flex-direction: column;
+    }
+
+    .image-container {
+        margin-bottom: 20px;
+    }
+}

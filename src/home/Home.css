@@ -1,0 +1,57 @@
+.home-container {
+    padding: 20px;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+
+.heading-large {
+    margin-bottom: 20px;
+}
+
+.upload-section {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.upload-heading {
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proverbs-section {
+    margin-top: 40px;
+    max-width: fit-content;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.proverbs-heading {
+    margin-bottom: 10px;
+}
+
+.proverb {
+    font-style: italic;
+    margin-bottom: 5px;
+}
